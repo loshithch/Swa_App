@@ -3,7 +3,7 @@ import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
 import SplashScreen from '../screen/splashScreen/SplashScreen'
-import ScanScreen from '../screen/splashScreen/scanScreen/ScanScreen'
+import ScanScreen from '../screen/scanScreen/ScanScreen'
 
 const RootStack = () => {
     const stack =createStackNavigator();
