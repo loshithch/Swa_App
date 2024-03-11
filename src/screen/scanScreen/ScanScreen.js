@@ -7,7 +7,7 @@ const ScanScreen = () => {
     const device =devices.back;
 
     useEffect( ()=>{
-
+checkPermission();
     },[]);
 
     const checkPermission = async() =>{
